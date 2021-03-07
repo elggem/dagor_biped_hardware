@@ -15,27 +15,27 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
 ### 3D printed parts
 
 | Name 							  | qty | instructions |
-hip_aa_structure_left_side_base		| 1 | tbd |
-hip_aa_structure_left_side_cover	| 1 | tbd |
-hip_aa_structure_right_side_base	| 1 | tbd |
-hip_aa_structure_right_side_cover	| 1 | tbd |
-hip_fe_structure_left_side_base		| 1 | tbd |
-hip_fe_structure_left_side_cover	| 1 | tbd |
-hip_fe_structure_right_side_base	| 1 | tbd |
-hip_fe_structure_right_side_cover	| 1 | tbd |
-upper_leg_structure_base			| 2 | tbd |
-upper_leg_structure_cover			| 2 | tbd |
-lower_leg_structure					| 2 | tbd |
-foot_structure						| 2 | tbd |
-body_structure_biped_back			| 1 | tbd |
-body_structure_biped_bottom			| 1 | tbd |
-body_structure_biped_front			| 1 | tbd |
-body_structure_biped_left_side		| 1 | tbd |
-body_structure_biped_right_side		| 1 | tbd |
-body_structure_top					| 1 | tbd |
-motor_shaft_dagor					| 6 | tbd |
-transmission_pulley					| 6 | tbd |
-output shaft						| 6 | tbd |
+| hip_aa_structure_left_side_base		| 1 | tbd |
+| hip_aa_structure_left_side_cover	| 1 | tbd |
+| hip_aa_structure_right_side_base	| 1 | tbd |
+| hip_aa_structure_right_side_cover	| 1 | tbd |
+| hip_fe_structure_left_side_base		| 1 | tbd |
+| hip_fe_structure_left_side_cover	| 1 | tbd |
+| hip_fe_structure_right_side_base	| 1 | tbd |
+| hip_fe_structure_right_side_cover	| 1 | tbd |
+| upper_leg_structure_base			| 2 | tbd |
+| upper_leg_structure_cover			| 2 | tbd |
+| lower_leg_structure					| 2 | tbd |
+| foot_structure						| 2 | tbd |
+| body_structure_biped_back			| 1 | tbd |
+| body_structure_biped_bottom			| 1 | tbd |
+| body_structure_biped_front			| 1 | tbd |
+| body_structure_biped_left_side		| 1 | tbd |
+| body_structure_biped_right_side		| 1 | tbd |
+| body_structure_top					| 1 | tbd |
+| motor_shaft_dagor					| 6 | tbd |
+| transmission_pulley					| 6 | tbd |
+| output shaft						| 6 | tbd |
 
 
 ## Printing the parts
