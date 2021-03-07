@@ -2,11 +2,40 @@
 
 Robot hardware design from the Open Robot Dynamic Initiative remixed for easier and cheaper assembly using commonly available FDM 3D printers and control via the Dagor brushless motor controller.
 
-This work is based on the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) designs. More documentation is following soon.
+This work is based on the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) designs. There are a few differences:
 
-## Bill of Materials
+  - The body and cover of the actuator modules are modified to make them print easily without supports on an entry level FDM printer in PLA.
+  - Change of belt to 3M HTD profile. This curved belt profile might not be ideal in terms of backlash and other performance characteristics, but it is more affordable than the AT3 GENIII Conti belts used in the original ODRI work. Other (trapezoidal) tooth profiles might be better suited for this application.
+  - Change to 4004 360kV budget motors. Change to mounting holes and design of custom Hex-based motor pulley to avoid having to make a custom motor shaft.
+  - Mounting holes to control joints via Dagor Brushless Controller module. Optional mounting holes for AS5600 based magnetic encoder to control via external board like ...
+  - Mounting holes for magnetic encoder on output shaft. This means cable management has to be different.
 
-TBD
+## Bill of Materials whole robot
+
+### 3D printed parts
+
+| Name 							  | qty | instructions |
+hip_aa_structure_left_side_base		| 1 | tbd |
+hip_aa_structure_left_side_cover	| 1 | tbd |
+hip_aa_structure_right_side_base	| 1 | tbd |
+hip_aa_structure_right_side_cover	| 1 | tbd |
+hip_fe_structure_left_side_base		| 1 | tbd |
+hip_fe_structure_left_side_cover	| 1 | tbd |
+hip_fe_structure_right_side_base	| 1 | tbd |
+hip_fe_structure_right_side_cover	| 1 | tbd |
+upper_leg_structure_base			| 2 | tbd |
+upper_leg_structure_cover			| 2 | tbd |
+lower_leg_structure					| 2 | tbd |
+foot_structure						| 2 | tbd |
+body_structure_biped_back			| 1 | tbd |
+body_structure_biped_bottom			| 1 | tbd |
+body_structure_biped_front			| 1 | tbd |
+body_structure_biped_left_side		| 1 | tbd |
+body_structure_biped_right_side		| 1 | tbd |
+body_structure_top					| 1 | tbd |
+motor_shaft_dagor					| 6 | tbd |
+transmission_pulley					| 6 | tbd |
+output shaft						| 6 | tbd |
 
 
 ## Printing the parts
