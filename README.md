@@ -15,6 +15,7 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
 ### 3D printed parts
 
 | Name 							  | qty | instructions |
+| --- | --- | --- |
 | hip_aa_structure_left_side_base		| 1 | tbd |
 | hip_aa_structure_left_side_cover	| 1 | tbd |
 | hip_aa_structure_right_side_base	| 1 | tbd |
