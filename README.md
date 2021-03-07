@@ -2,7 +2,7 @@
 
 Robot hardware design from the Open Robot Dynamic Initiative remixed for easier and cheaper assembly using commonly available FDM 3D printers and control via the Dagor brushless motor controller.
 
-This work is based on the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) designs. There are a few differences:
+This work is based on the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) designs. The following modifications were made:
 
   - The body and cover of the actuator modules are modified to make them print easily without supports on an entry level FDM printer in PLA.
   - Change of belt to 3M HTD profile. This curved belt profile might not be ideal in terms of backlash and other performance characteristics, but it is more affordable than the AT3 GENIII Conti belts used in the original ODRI work. Other (trapezoidal) tooth profiles might be better suited for this application.
@@ -38,6 +38,26 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
 | transmission_pulley					| 6 | tbd |
 | output shaft						| 6 | tbd |
 
+### Mechanical components
+
+| Name | qty | source |
+| --- | --- | --- |
+| Belt 3M HTD 150mm/50t/4mm 	| 3    |  tbd |
+| Belt 3M HTD 201mm/67t/6mm		| 3    | tbd |
+| Bearing 6705 25x32x4			| 12   | tbd |
+| Bearing 6802 15x24x5			| 6    | tbd |
+| Bearing MR105 5x10x4			| 24   | tbd |
+| M2.5 x 10mm Screw				| 102  | tbd |
+| M2.5 Distance Bolt 10mm		| 6    | tbd |
+
+### Powered components
+
+| Name | qty | source |
+| --- | --- | --- |
+| 5010 360kv Aliexpress		| 6 | tbd |
+| Dagor Board				| 6 | tbd |
+| Magnet					| 6 | tbd |
+| u.fl Antenna				| 6 | tbd |
 
 ## Printing the parts
 
