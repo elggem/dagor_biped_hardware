@@ -14,12 +14,13 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
 
 ## Preparing the motor shaft
 
-There are M2.5 threads on the output shaft of the Sunnysky motors we used in this build. If you use other motors or receive another batch of these motors without the thread then you have to find another way of mounting the output transmission pulley onto your motors. This might involve replacing the shaft of the motor entirely (for examples see here and here). In our case, the process is quite simple:
+There are M2.5 threads on the output shaft of the Sunnysky motors we used in this build. If you use other motors or receive another batch of these motors without the thread then you have to find another way of mounting the output transmission pulley onto your motors. This might involve replacing the shaft of the motor entirely (for examples see [here](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_motor_shaft_preparation.md) and [here](https://youtu.be/HwWZw7wfN_k?t=182)). In our case, the process is quite simple:
 
- 1. Remove the original M2.5 lockscrew on the output shaft of the motor and seperate the outer case from the stator. Due to the magnetic force this requires quite a bit of force so be aware not to pinch your fingers.
+ 1. Remove the original M2.5 lockscrew on the output shaft of the motor and seperate the outer case from the stator. Due to the magnetic force this requires quite a bit of strength. Be aware not to pinch your fingers.
  2. Use a hard flat surface to push the output shaft from the outer case a little bit. Apply Loctite 648 or another suitable anaerobic metal glue onto the surfaces and push the shaft back into the housing. Remove any residual glue that was squeezed out from the outside.
  3. Snap the stator back into the housing carefully. After apply some Loctite 648 to the M2.5 standoff and screw it into the shaft as tight as possible with pliers. We use steel standoffs here, but the more commonly available brass standoffs would probably also work.
- 4. Wait for the Loctite to cure at least 24hr. After, slide the 3D printed motor output pulley over the standoff. It should be a very tight press-fit between the pulley and standoff.
+ 4. Wait for the Loctite to cure at least 24hr. Then slide the 3D printed motor output pulley over the standoff. It should be a very tight press-fit between the pulley and standoff.
+ 5. Finally insert the magnet used for the magnetic encoder into place. It should also be a pretty tight fit. If it falls out very easily apply a little amount of glue to fix it in place.
 
 
 ## Preparing Dagor boards
