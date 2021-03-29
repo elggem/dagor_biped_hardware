@@ -10,57 +10,11 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
   - Change to 4004 360kV budget motors. Change to mounting holes and design of custom Hex-based motor pulley to avoid having to make a custom motor shaft.
   - Mounting holes to control joints via [Dagor Brushless Controller module](https://www.dagor.dev). 
 
-## Bill of Materials
-
-This is a preliminary list subject to change.
-
-### 3D printed parts
-
-| Name 							  | qty |
-| --- | --- |
-| hip_normal_body					| 2 |
-| hip_normal_cover					| 2 |
-| hip_mirrored_body					| 2 |
-| hip_mirrored_cover				| 2 |
-| upper_leg_structure_base			| 2 |
-| upper_leg_structure_cover			| 2 |
-| upper_leg_structure_output_shaft	| 2 |
-| lower_leg_structure				| 2 |
-| foot_structure					| 2 |
-| body_structure					| 1 |
-| motor_pulley						| 6 |
-| transmission_pulley				| 6 |
-| output_pulley						| 6 |
-
-### Mechanical components
-
-| Name 							| qty  |
-| --- | --- |
-| Belt 3M HTD 150mm/50t/4mm 	| 3    |
-| Belt 3M HTD 201mm/67t/6mm		| 3    |
-| Bearing 6705 25x32x4			| 12   |
-| Bearing MR105 5x10x4			| 18   |
-| M2.5 threaded inserts			| 48   |
-| M2.5 x 10mm screw				| 48   |
-| M2.5 x 20mm screw				| 16   |
-| M2.5 distance bolt 10mm		| 6    |
-| Motor encoder magnet   		| 6    |
-
-### Electrical components
-
-| Name 							| qty  |
-| --- | --- |
-| Dagor board 					| 6    |
-| u.fl IPEX antenna  			| 6    |
-| Sunnysky 5010 360kV motor		| 6    |
-| XT60 male connector			| 6    |
-
-
 ## Instructions
 
 ## Preparing the motor shaft
 
-We were lucky to find there are M2.5 threads on the output shaft of the Sunnysky motors we used in this build here. If you use other motors or receive another batch of these motors without the thread then you have to find another way of mounting the output transmission pulley onto your motors. This might involve replacing the shaft of the motor entirely (for examples see here and here). In our case, the process is quite simple:
+There are M2.5 threads on the output shaft of the Sunnysky motors we used in this build. If you use other motors or receive another batch of these motors without the thread then you have to find another way of mounting the output transmission pulley onto your motors. This might involve replacing the shaft of the motor entirely (for examples see here and here). In our case, the process is quite simple:
 
  1. Remove the original M2.5 lockscrew on the output shaft of the motor and seperate the outer case from the stator. Due to the magnetic force this requires quite a bit of force so be aware not to pinch your fingers.
  2. Use a hard flat surface to push the output shaft from the outer case a little bit. Apply Loctite 648 or another suitable anaerobic metal glue onto the surfaces and push the shaft back into the housing. Remove any residual glue that was squeezed out from the outside.
@@ -112,4 +66,52 @@ We printed the hip and leg modules using 0.28 draft layer height with default se
 10. Press fit the 6705 bearing into the cover and place it on top of the base. You need to wiggle both the transmission and output pulleys into place to make it work.
 11. Screw the M2.5 bolts into place securing everything.
 12. Check that everything runs smoothly by giving the motor a few turns and backdriving the actuator from the output shaft.
+
+
+
+
+## Bill of Materials
+
+This is a preliminary list subject to change.
+
+### 3D printed parts
+
+| Name 							  | qty |
+| --- | --- |
+| hip_normal_body					| 2 |
+| hip_normal_cover					| 2 |
+| hip_mirrored_body					| 2 |
+| hip_mirrored_cover				| 2 |
+| upper_leg_structure_base			| 2 |
+| upper_leg_structure_cover			| 2 |
+| upper_leg_structure_output_shaft	| 2 |
+| lower_leg_structure				| 2 |
+| foot_structure					| 2 |
+| body_structure					| 1 |
+| motor_pulley						| 6 |
+| transmission_pulley				| 6 |
+| output_pulley						| 6 |
+
+### Mechanical components
+
+| Name 							| qty  |
+| --- | --- |
+| Belt 3M HTD 150mm/50t/4mm 	| 3    |
+| Belt 3M HTD 201mm/67t/6mm		| 3    |
+| Bearing 6705 25x32x4			| 12   |
+| Bearing MR105 5x10x4			| 18   |
+| M2.5 threaded inserts			| 48   |
+| M2.5 x 10mm screw				| 48   |
+| M2.5 x 20mm screw				| 16   |
+| M2.5 distance bolt 10mm		| 6    |
+| Motor encoder magnet   		| 6    |
+
+### Electrical components
+
+| Name 							| qty  |
+| --- | --- |
+| Dagor board 					| 6    |
+| u.fl IPEX antenna  			| 6    |
+| Sunnysky 5010 360kV motor		| 6    |
+| XT60 male connector			| 6    |
 
