@@ -33,15 +33,15 @@ There are M2.5 threads on the output shaft of the Sunnysky motors we used in thi
 
 ### Output pulley
 
-The output pulley is under a lot of stress and needs to be printed as stable as possible. In many other designs this pulley is machined from CNC to avoid breaking it. It would also make sense to print this part out of a strong material such as Nylon or Polycarbonate. To print this piece in PLA a few custom slicer settings need to be made to make this part extra durable and strong.
+The output pulley is under a lot of stress and needs to be fabricated as strong as possible. In many other designs this pulley is machined from aluminium using CNC to avoid breaking it. It would also make sense to print it out of a strong material such as Nylon or Polycarbonate. To make this piece out of PLA, a few custom slicer settings need to be made for extra strength.
 
-1. We printed the pulley with the maximum resolution of 0.08mm on an Ender 3 in PLA. This enables the bottom of the pulley to print without supports.
-2. Part cooling needs to be turned off during print except for the top part that connects to the bearing. In our case we turned on part cooling at layer 192. No part cooling increases layer adhesion significantly and is absolutely recommended. To make this work with enough precision we decreased the output perimeter speed to 5mm/s. This could be optimized even further in the future but in our tests the precision was usable.
+1. We printed the pulley with the maximum resolution of 0.08mm on an Ender 3 in PLA. This enables the underside of the pulley to print without supports.
+2. Part cooling needs to be turned off during print except for the very top circular shape that connects to the bearing. In our case we turned on part cooling at layer 192. No part cooling increases layer adhesion significantly and is absolutely recommended. To make this work with enough precision we decreased the output perimeter speed to 5mm/s. 
 3. The extrusion width needs to be optimized to avoid gaps between the tooth profile and inner body of the pulley. In our case the optimal extrusion width was 0.3mm for inner and outer perimeters.
 4. We set the perimeter count to 32 so that the pulley prints entirely as perimeters with no infill. This maximizes the contact area between the bigger bottom pulley and smaller top pulley.
 5. We set the extrusion multiplier to 105% to increase layer bonding even further.
 
-After printing, a 20mm M2.5 bolt is screwed into the pulley to further strengthen it.
+After printing, a 20mm M2.5 bolt is screwed into the pulley to further strengthen it from top to bottom. Then the MR105 bearings can be press-fit into place.
 
 ### Motor pulley
 TBD
