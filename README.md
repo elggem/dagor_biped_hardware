@@ -56,17 +56,17 @@ We printed the hip and leg modules using 0.28 draft layer height with default se
 ## Actuator assembly
 
 1. Use a soldering iron to place 8x threaded inserts into the provided holes on the body of the actuator module.
-2. Mount the finished motor assembly onto the body of the actuator module.
-3. Press-fit two MR105 bearings onto the transmission pulley and press it into the mounting hole while adding the 50 tooth belt between the pulleys. There will be some tension here and the transmission pulley will be slightly slanted towards the motor. That is ok.
-4. Press fit an MR105 bearing onto the belt tensioning post in the body of the module. Make sure it sits flush with the bottom.
-5. Place a 6705 bearing onto the output pulley and adding the 67 tooth belt press it into the output pulley hole on the base of the actuator.
-6. Quickly give the motor a few turns while keeping pressure on the transmission pulley to make sure the output pulley turns.
+2. Mount the finished motor assembly onto the body of the actuator module, feeding the wires through the hole. Dont worry about the length of the motor cables at this point.
+3. Take the assembled transmission pulley and press it into the mounting hole while adding the 50 tooth belt between the motor and transmission pulleys. There will be some tension here and the transmission pulley will be slightly slanted towards the motor. That is ok. You can keep tension on the transmission pulley and give the motor a few turns to see if it is spinning freely.
+4. Press fit an MR105 bearing onto the belt tensioning post in the body of the module. Make sure it sits flush with the bottom and be sure not to apply too much force to the post. It will be strengthened by a bolt in the final stage of assembly.
+5. Place the output pulley assembly into its hole on the body while adding the 67 tooth belt between it and the transmission pulley. Quickly give the motor a few turns while keeping pressure on the transmission pulley to make sure the output pulley turns. Dont apply too much force to avoid breaking the belt tensioning post.
 7. Place a Dagor board onto the mounting posts and screw in 4x M2.5 bolts to secure it.
 8. Place the programming and power connectors into their sockets and glue them into place with either hotglue or superglue.
-9. Solder the motor wires onto the Dagor board.
-10. Press fit the 6705 bearing into the cover and place it on top of the base. You need to wiggle both the transmission and output pulleys into place to make it work.
-11. Screw the M2.5 bolts into place securing everything.
-12. Check that everything runs smoothly by giving the motor a few turns and backdriving the actuator from the output shaft.
+9. Shorten and solder the motor wires onto the Dagor board. Optionally you can use bullet style connectors for this.
+10. Place the cover on top of the base. You need to slip it over one side of the Dagor board and wiggle both the transmission and output pulleys into place to make it work. The belt tension will make this a bit tricky, be patient and dont apply too much force.
+11. Screw the 8x M2.5 10mm bolts into place securing everything.
+12. Finally, screw one M2.5 20mm bolt into the hole of the belt tensioner. This is essential because otherwise the belt tensioning post will break off.
+13. Check that everything runs smoothly by giving the motor a few turns and backdriving the actuator from the output shaft. After, flash the firmware on Dagor and begin testing.
 
 
 
