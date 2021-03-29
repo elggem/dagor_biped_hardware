@@ -51,7 +51,7 @@ TBD
 
 ### Actuator modules
 
-We printed the hip and leg modules using 0.28 draft layer height with default settings on an Ender 3 with 0.4mm nozzle in standard PLA. For your printer you might need to adjust settings to adjust for clearances. Make sure that both the smaller MR105 and bigger 6705 bearings press fit tightly in their places in the modules.
+We printed the modules using 0.28 draft layer height with default settings on an Ender 3 with 0.4mm nozzle in standard PLA. For your printer you might need to adjust settings for clearances. Make sure that both the smaller MR105 and bigger 6705 bearings press fit tightly in their places.
 
 ## Actuator assembly
 
