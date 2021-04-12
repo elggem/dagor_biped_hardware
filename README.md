@@ -14,8 +14,8 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
 
 ## Preparing the motor shaft
 
-<table style="border:0; padding:0;">
-  <tr>
+<table>
+  <tr style="border:0; padding:0;">
     <td valign="top"><img src="instructions/motor_1.jpg"></td>
     <td valign="top"><img src="instructions/motor_2.jpg"></td>
     <td valign="top"><img src="instructions/motor_3.jpg"></td>
