@@ -1,6 +1,6 @@
 # dagor_biped_hardware
 
-This is a robot hardware design based on the the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) remixed for easier and cheaper assembly using commonly available FDM 3D printers and control via the Dagor brushless motor controller. The following modifications were made to the original design:
+This is a robot hardware design based on the the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) Bolt robot remixed for easier and cheaper assembly using commonly available FDM 3D printers and control via the Dagor brushless motor controller. The following modifications were made to the original design:
 
   - The body and cover of the actuator modules are modified to make them print easily without supports on an entry level FDM printer in ASA/PLA.
   - Change of belt to 3M HTD profile. This curved belt profile might not be ideal in terms of backlash and other performance characteristics, but it is more affordable than the AT3 GENIII Conti belts used in the original ODRI work. Other (trapezoidal) tooth profiles might be better suited for this application.
