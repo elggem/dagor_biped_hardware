@@ -26,9 +26,9 @@ There are M2.5 threads on the output shaft of the Sunnysky motors we used in thi
 
 
 ## Preparing Dagor boards
-
+<p align="center">
 <img src="instructions/dagor_1.jpg" width="30%"/><img src="instructions/dagor_2.jpg" width="30%"/>
-
+</p>
  1. Prepare a 3-pin female programming header connection cable with ~4cm length and put some solder on the exposed leads. Solder the programming wires on to RXD/TXD/GND on the Dagor board, with the leads exiting the PCB towards the side with the magnetic encoder. 
  2.  Prepare an XT60 male connector with ~2cm leads for the hip modules and a ~15cm power wire without a connector for the leg modules. Solder the power wires on the side of the module with the magnetic encoder.
  3. Optionally you could use bullet style connectors for the motor wires, but I choose to solder them onto the board directly after assembly. If you want to also solder directly just put some tin onto the pads of the controller. The leg modules have enough space for connectors but in the hip modules its a very tight fit.
