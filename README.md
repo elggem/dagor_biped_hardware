@@ -14,7 +14,9 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
 
 ## Preparing the motor shaft
 
-<img src="instructions/motor_1.jpg" width="20%"/><img src="instructions/motor_2.jpg" width="20%"/><img src="instructions/motor_3.jpg" width="20%"/><img src="instructions/motor_4.jpg" width="20%"/><img src="instructions/motor_5.jpg" width="20%"/>
+<p align="center">
+  <img src="instructions/motor_1.jpg" width="20%"/><img src="instructions/motor_2.jpg" width="20%"/><img src="instructions/motor_3.jpg" width="20%"/><img src="instructions/motor_4.jpg" width="20%"/><img src="instructions/motor_5.jpg" width="20%"/>
+</p>
 
 There are M2.5 threads on the output shaft of the Sunnysky motors we used in this build. If you use other motors or receive another batch of these motors without the thread then you have to find another way of mounting the output transmission pulley onto your motors. This might involve replacing the shaft of the motor entirely (for examples see [here](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_motor_shaft_preparation.md) and [here](https://youtu.be/HwWZw7wfN_k?t=182)). In our case, the process is quite simple:
 
@@ -26,18 +28,24 @@ There are M2.5 threads on the output shaft of the Sunnysky motors we used in thi
 
 
 ## Preparing Dagor boards
+
 <p align="center">
-<img src="instructions/dagor_1.jpg" width="30%"/><img src="instructions/dagor_2.jpg" width="30%"/>
+  <img src="instructions/dagor_1.jpg" width="30%"/><img src="instructions/dagor_2.jpg" width="30%"/>
 </p>
+
  1. Prepare a 3-pin female programming header connection cable with ~4cm length and put some solder on the exposed leads. Solder the programming wires on to RXD/TXD/GND on the Dagor board, with the leads exiting the PCB towards the side with the magnetic encoder. 
  2.  Prepare an XT60 male connector with ~2cm leads for the hip modules and a ~15cm power wire without a connector for the leg modules. Solder the power wires on the side of the module with the magnetic encoder.
  3. Optionally you could use bullet style connectors for the motor wires, but I choose to solder them onto the board directly after assembly. If you want to also solder directly just put some tin onto the pads of the controller. The leg modules have enough space for connectors but in the hip modules its a very tight fit.
 
 ## Printing the parts
 
-### Output pulley
+### Center pulley
 
-The output pulley is under a lot of stress and needs to be fabricated as strong as possible. In many other designs this pulley is machined from aluminium using CNC to avoid breaking it. It would also make sense to print it out of a strong material such as Nylon or Polycarbonate. To make this piece out of PLA, a few custom slicer settings need to be made for extra strength.
+<p align="center">
+  <img src="instructions/center_pulley_1.jpg" width="30%"/><img src="instructions/center_pulley_2.jpg" width="30%"/>
+</p>
+
+The center transmission pulley is under a lot of stress and needs to be fabricated as strong as possible. In many other designs this pulley is machined from aluminium using CNC to avoid breaking it. It would also make sense to print it out of a strong material such as Nylon or Polycarbonate. To make this piece out of PLA, a few custom slicer settings need to be made for extra strength.
 
 1. We printed the pulley with the maximum resolution of 0.08mm on an Ender 3 in PLA. This enables the underside of the pulley to print without supports.
 2. Part cooling needs to be turned off during print except for the very top circular shape that connects to the bearing. In our case we turned on part cooling at layer 192. No part cooling increases layer adhesion significantly and is absolutely recommended. To make this work with enough precision we decreased the output perimeter speed to 5mm/s. 
@@ -48,16 +56,27 @@ The output pulley is under a lot of stress and needs to be fabricated as strong 
 After printing, a 20mm M2.5 bolt is screwed into the pulley to further strengthen it from top to bottom. Then the MR105 bearings can be press-fit into place.
 
 ### Motor pulley
-TBD
+<p align="center">
+  <img src="instructions/motor_pulley_1.jpg" width="30%"/><img src="instructions/motor_pulley_2.jpg" width="30%"/>
+</p>
 
 ### Output pulley
-TBD
+<p align="center">
+  <img src="instructions/output_pulley_1.jpg" width="30%"/><img src="instructions/output_pulley_2.jpg" width="30%"/>
+</p>
 
 ### Actuator modules
 
 We printed the modules using 0.28 draft layer height with default settings on an Ender 3 with 0.4mm nozzle in standard PLA. For your printer you might need to adjust settings for clearances. Make sure that both the smaller MR105 and bigger 6705 bearings press fit tightly in their places.
 
 ## Actuator assembly
+
+<p align="center">
+  <img src="instructions/hip_module_1.jpg" width="30%"/><img src="instructions/hip_module_2.jpg" width="30%"/><img src="instructions/hip_module_3.jpg" width="30%"/>
+</p>
+<p align="center">
+  <img src="instructions/hip_module_4.jpg" width="30%"/><img src="instructions/hip_module_5.jpg" width="30%"/><img src="instructions/hip_module_6.jpg" width="30%"/>
+</p>
 
 1. Use a soldering iron to place 8x threaded inserts into the provided holes on the body of the actuator module.
 2. Mount the finished motor assembly onto the body of the actuator module, feeding the wires through the hole. Dont worry about the length of the motor cables at this point.
