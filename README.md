@@ -1,6 +1,6 @@
 # dagor_biped_hardware
 
-This is a 🤖 hardware design based on the the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) remixed for easier and cheaper assembly using commonly available FDM 3D printers and control via the Dagor brushless motor controller. The following modifications were made to the original design:
+This is a robot hardware design based on the the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) remixed for easier and cheaper assembly using commonly available FDM 3D printers and control via the Dagor brushless motor controller. The following modifications were made to the original design:
 
   - The body and cover of the actuator modules are modified to make them print easily without supports on an entry level FDM printer in ASA/PLA.
   - Change of belt to 3M HTD profile. This curved belt profile might not be ideal in terms of backlash and other performance characteristics, but it is more affordable than the AT3 GENIII Conti belts used in the original ODRI work. Other (trapezoidal) tooth profiles might be better suited for this application.
@@ -59,7 +59,7 @@ There are M2.5 threads on the output shaft of the Sunnysky motors we used in thi
 ### Preparing Dagor boards
 
 <p align="center">
-  <img src="instructions/dagor_1.jpg" width="30%"/><img src="instructions/dagor_2.jpg" width="30%"/>
+  <img src="instructions/dagor_1.jpg" width="40%"/><img src="instructions/dagor_2.jpg" width="40%"/>
 </p>
 
  1. Prepare a 3-pin female programming header connection cable with ~4cm length and put some solder on the exposed leads. Solder the programming wires on to RXD/TXD/GND on the Dagor board, with the leads exiting the PCB towards the side with the magnetic encoder. 
@@ -70,10 +70,10 @@ There are M2.5 threads on the output shaft of the Sunnysky motors we used in thi
 ### Actuator assembly
 
 <p align="center">
-  <img src="instructions/hip_module_1.jpg" width="30%"/><img src="instructions/hip_module_2.jpg" width="30%"/><img src="instructions/hip_module_3.jpg" width="30%"/>
+  <img src="instructions/hip_module_1.jpg" width="80%"/>
 </p>
 <p align="center">
-  <img src="instructions/hip_module_4.jpg" width="30%"/><img src="instructions/hip_module_5.jpg" width="30%"/><img src="instructions/hip_module_6.jpg" width="30%"/>
+  <img src="instructions/hip_module_2.jpg" width="20%"/><img src="instructions/hip_module_3.jpg" width="20%"/><img src="instructions/hip_module_4.jpg" width="20%"/><img src="instructions/hip_module_5.jpg" width="20%"/><img src="instructions/hip_module_6.jpg" width="20%"/>
 </p>
 
 Make sure that both the smaller MR105 and bigger 6705 bearings press fit tightly in their places!
