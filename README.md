@@ -1,7 +1,7 @@
 # dagor_biped_hardware
 
 <p align="center">
-  <img src="instructions/cad_render_robot.png" width="50%"/>
+  <img src="instructions/cad_render_robot.png" width="70%"/>
 </p>
 
 This is a robot hardware design based on the the [Open Robot Dynamic Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) Bolt robot remixed for easier and cheaper assembly using commonly available FDM 3D printers and control via the [Dagor Brushless motor control module](https://www.dagor.dev). The following modifications were made to the original design:
