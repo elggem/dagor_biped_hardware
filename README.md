@@ -14,11 +14,7 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
 
 ## Preparing the motor shaft
 
-<img src="instructions/motor_1.jpg" width="20%"/><img src="instructions/motor_2.jpg" width="20%"/>
-<img src="instructions/motor_3.jpg" width="20%"/>
-<img src="instructions/motor_4.jpg" width="20%"/>
-<img src="instructions/motor_5.jpg" width="20%"/>
-
+<img src="instructions/motor_1.jpg" width="20%"/><img src="instructions/motor_2.jpg" width="20%"/><img src="instructions/motor_3.jpg" width="20%"/><img src="instructions/motor_4.jpg" width="20%"/><img src="instructions/motor_5.jpg" width="20%"/>
 
 There are M2.5 threads on the output shaft of the Sunnysky motors we used in this build. If you use other motors or receive another batch of these motors without the thread then you have to find another way of mounting the output transmission pulley onto your motors. This might involve replacing the shaft of the motor entirely (for examples see [here](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_motor_shaft_preparation.md) and [here](https://youtu.be/HwWZw7wfN_k?t=182)). In our case, the process is quite simple:
 
