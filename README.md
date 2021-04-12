@@ -14,7 +14,7 @@ This work is based on the [Open Robot Dynamic Initiative](https://github.com/ope
 
 ## Preparing the motor shaft
 
-<img src="instructions/motor_1.jpg" width="20%"/><img src="instructions/motor_2.jpg" width="20%"/><img src="instructions/motor_3.jpg" width="20%"/><img src="instructions/motor_4.jpg" width="20%"/><img src="instructions/motor_5.jpg" width="20%"/>
+<center><img src="instructions/motor_1.jpg" width="20%"/><img src="instructions/motor_2.jpg" width="20%"/><img src="instructions/motor_3.jpg" width="20%"/><img src="instructions/motor_4.jpg" width="20%"/><img src="instructions/motor_5.jpg" width="20%"/></center>
 
 There are M2.5 threads on the output shaft of the Sunnysky motors we used in this build. If you use other motors or receive another batch of these motors without the thread then you have to find another way of mounting the output transmission pulley onto your motors. This might involve replacing the shaft of the motor entirely (for examples see [here](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/actuator_module_v1/details/details_motor_shaft_preparation.md) and [here](https://youtu.be/HwWZw7wfN_k?t=182)). In our case, the process is quite simple:
 
@@ -26,6 +26,8 @@ There are M2.5 threads on the output shaft of the Sunnysky motors we used in thi
 
 
 ## Preparing Dagor boards
+
+<center><img src="instructions/dagor_1.jpg" width="30%"/><img src="instructions/dagor_2.jpg" width="30%"/></center>
 
  1. Prepare a 3-pin female programming header connection cable with ~4cm length and put some solder on the exposed leads. Solder the programming wires on to RXD/TXD/GND on the Dagor board, with the leads exiting the PCB towards the side with the magnetic encoder. 
  2.  Prepare an XT60 male connector with ~2cm leads for the hip modules and a ~15cm power wire without a connector for the leg modules. Solder the power wires on the side of the module with the magnetic encoder.
