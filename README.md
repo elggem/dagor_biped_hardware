@@ -80,7 +80,7 @@ There are M2.5 threads on the output shaft of the Sunnysky motors we used in thi
   <img src="instructions/hip_module_2.jpg" width="20%"/><img src="instructions/hip_module_3.jpg" width="20%"/><img src="instructions/hip_module_4.jpg" width="20%"/><img src="instructions/hip_module_5.jpg" width="20%"/><img src="instructions/hip_module_6.jpg" width="20%"/>
 </p>
 
-*Final weight of hip module: 188gram*
+*Final weight of hip module: 188g*
 
 Make sure that both the smaller MR105 and bigger 6705 bearings press fit tightly in their places!
 
