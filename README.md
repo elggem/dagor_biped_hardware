@@ -19,7 +19,7 @@ This is a robot hardware design based on the the [Open Robot Dynamic Initiative]
   <img src="instructions/motor_pulley_1.jpg" width="40%"/><img src="instructions/motor_pulley_2.jpg" width="40%"/>
 </p>
 
-The motor pulley press-fits onto the brass or steel standoffs on the finished motor assembly.
+The motor pulley press-fits onto the brass or steel standoffs on the finished motor assembly. It is recommended to print the pulley with material that is a bit flexible (like TPE) for added durability.
 
 ### Output pulley
 <p align="center">
